@@ -88,10 +88,11 @@ console.log(ticketprice);
 
 
 //Write a program that calculates a discount based on the purchase amount.
-//Bu sualda fucntion yazmaq lazim idi deye bos buraxdim
-  
-  
+
+var purchaseAmount = 120; var discount;
+if (purchaseAmount >= 100) { discount = 20; } else if (purchaseAmount >= 50) { discount = 10; } else { discount = 0; } console.log("Discount: " + discount + "%");
+
 
 //Write a simple number guessing game.
-//Bu sualda fucntion yazmaq lazim idi deye bos buraxdim
 
+var secretNumber = 7; var guess = 5; if (guess === secretNumber) { console.log("Congratulations! You guessed the correct number."); } else if (guess < secretNumber) { console.log("Try a higher number."); } else { console.log("Try a lower number."); }
